@@ -16,17 +16,17 @@ const Footer = () => {
     <div className="bg-gray-800 pt-12">
       <div className="container mx-auto">
         {/* <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-8"> */}
-        <div className="flex flex-col md:flex-row flex-wrap justify-around gap-8">
+        <div className="flex flex-col md:flex-row flex-wrap justify-around ml-5 md:ml-0 gap-8">
           {/* START SINGLE WIDGET */}
           <div>
-            <h4 className="text-white text-lg mb-4">
+            <h4 className="text-white text-base md:text-lg mb-4">
               About <span className="text-blue-600">IT COMPANY</span>
             </h4>
-            <p className="text-gray-400">
+            <p className="text-gray-400 text-sm md:text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <p className="text-gray-400">
+            <p className="text-gray-400 text-sm md:text-base">
               Lorem Ipsum has been the industry's standard dummy text since the 1500s.
             </p>
             <div className="flex space-x-4 mt-4">
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* START SINGLE WIDGET */}
           <div>
-            <h4 className="text-white text-lg mb-4">Quick Links</h4>
+            <h4 className="text-white text-base md:text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-gray-400 hover:text-blue-400">
@@ -88,7 +88,7 @@ const Footer = () => {
 
           {/* START SINGLE WIDGET */}
           <div>
-            <h4 className="text-white text-lg mb-4">Contact Info</h4>
+            <h4 className="text-white text-base md:text-lg mb-4">Contact Info</h4>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <FaMapMarkerAlt className="text-blue-400 text-2xl" />
