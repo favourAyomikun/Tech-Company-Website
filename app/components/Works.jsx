@@ -47,7 +47,7 @@ const WorkSection = () => {
     <section id="work" className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold">Our Awesome Work</h2>
+          <h2 className="text-2xl md:text-3xl font-bold">Our Awesome Work</h2>
           <span className="block my-2 h-1 w-16 bg-gray-400 mx-auto"></span>
           <p className="text-gray-600 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elitsed ation

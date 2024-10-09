@@ -49,7 +49,7 @@ const PricingSection = () => {
         <div>
           <div>
             <div className="text-center">
-              <h2 className="text-3xl font-bold">Our Pricing Plan</h2>
+              <h2 className="text-2xl md:text-3xl font-bold">Our Pricing Plan</h2>
               <span className="block my-2 mx-auto w-16 h-1 bg-gray-400"></span>
               <div className="text-gray-600">
                 <div>
