@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
-import { FaBars, FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Link from "next/link";
@@ -9,75 +8,13 @@ import carouselPhoto1 from "../public/carousel-photo1.webp";
 import carouselPhoto2 from "../public/carousel-photo2.webp";
 import carouselPhoto3 from "../public/carousel-photo3.jpeg";
 import Image from "next/image";
+import { Navbar } from "./Navbar";
 
 const Header = () => {
-  // set state to toggle navbar
-  const [isOpen, setIsOpen] = useState(false);
-
-  // Function to toggle the visibility of the navbar
-  const toggleNavbar = () => {
-    // Toggle the state between open and closed
-    setIsOpen(!isOpen);
-  };
-
   return (
     <header id="home">
       {/* Navbar */}
-      <nav className="bg-gray-800 text-white py-4">
-        <div className="container mx-auto flex justify-between px-5 items-center">
-          <Link href="/" className="text-2xl font-semibold">
-            IT Company
-          </Link>
-          <button
-            className="block lg:hidden text-xl focus:outline-none"
-            onClick={toggleNavbar}
-            aria-label="Toggle navigation"
-          >
-            <FaBars />
-          </button>
-          <div
-            className={`lg:flex items-center ${isOpen ? "block" : "hidden"}`}
-          >
-            <ul className="lg:flex lg:space-x-6 space-y-4 lg:space-y-0 text-base mt-4 lg:mt-0">
-              <li>
-                <Link href="#home" className=" hover:text-blue-400">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="#about" className=" hover:text-blue-400">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className=" hover:text-blue-400">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="#team" className=" hover:text-blue-400">
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link href="#work" className=" hover:text-blue-400">
-                  Work
-                </Link>
-              </li>
-              <li>
-                <Link href="#pricing" className=" hover:text-blue-400">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="#contact" className=" hover:text-blue-400">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Carousel Slider Area */}
       <div>
@@ -121,7 +58,9 @@ const Header = () => {
             />
             <div className="absolute inset-0 flex justify-center items-center text-center text-white">
               <div>
-                <h2 className="text-4xl font-bold uppercase">We are a Creative Agency</h2>
+                <h2 className="text-4xl font-bold uppercase">
+                  We are a Creative Agency
+                </h2>
                 <p className="mt-4 font-semibold">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
