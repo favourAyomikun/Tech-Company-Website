@@ -29,9 +29,9 @@ const AboutUs = () => {
             {/* FEATURE 1 */}
             <div>
               <div className="bg-blue-600 rounded-full p-3 inline-block">
-                <FaMobile className="text-4xl text-white" />
+                <FaMobile className="text-3xl md:text-4xl text-white" />
               </div>
-              <h4 className="text-2xl font-bold">Fully Responsive</h4>
+              <h4 className="text-xl md:text-2xl font-bold">Fully Responsive</h4>
               <p className="text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed
                 ation Lorem ipsum
@@ -40,9 +40,9 @@ const AboutUs = () => {
             {/* FEATURE 2 */}
             <div>
               <div className="bg-blue-600 rounded-full p-3 inline-block">
-                <FaCode className="text-4xl text-white" />
+                <FaCode className="text-3xl md:text-4xl text-white" />
               </div>
-              <h4 className="text-2xl font-bold">Clean Code</h4>
+              <h4 className="text-xl md:text-2xl font-bold">Clean Code</h4>
               <p className="text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed
                 ation Lorem ipsum
@@ -51,9 +51,9 @@ const AboutUs = () => {
             {/* FEATURE 3 */}
             <div>
               <div className="bg-blue-600 rounded-full p-3 inline-block">
-                <FaCheckSquare className="text-4xl text-white" />
+                <FaCheckSquare className="text-3xl md:text-4xl text-white" />
               </div>
-              <h4 className="text-2xl font-bold">Easy To Customize</h4>
+              <h4 className="text-xl md:text-2xl font-bold">Easy To Customize</h4>
               <p className="text-gray-600 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed
                 ation Lorem ipsum
@@ -66,7 +66,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {/* ABOUT TEXT */}
           <div>
-            <h4 className="text-3xl font-bold mb-4">
+            <h4 className="text-2xl md:text-3xl font-bold mb-4">
               Welcome to <span className="text-blue-600">IT COMPANY</span>
             </h4>
             <p className="text-gray-600 mb-4">
@@ -89,7 +89,7 @@ const AboutUs = () => {
 
           {/* EXPERTISE */}
           <div>
-            <h4 className="text-3xl font-bold mb-6">Our Expertise</h4>
+            <h4 className="text-2xl md:text-3xl font-bold mb-6">Our Expertise</h4>
             {/* PROGRESS BARS */}
             <div className="space-y-6">
               {/* Progress Bar 1 */}

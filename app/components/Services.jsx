@@ -5,7 +5,7 @@ const ServicesSection = () => {
     <section id="services" className="bg-gray-100 py-12">
       <div className="container mx-auto">
         <div className="text-center">
-          <h2 className="flex justify-center text-4xl font-semibold">Our Services</h2>
+          <h2 className="flex justify-center text-2xl md:text-4xl font-semibold">Our Services</h2>
           <span className="block my-2 h-1 w-16 bg-gray-400 mx-auto"></span>
           <p className="text-gray-600 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
@@ -15,10 +15,10 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 w-[90%]">
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
@@ -34,7 +34,7 @@ const ServicesSection = () => {
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
             {" "}
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
@@ -50,7 +50,7 @@ const ServicesSection = () => {
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
             {" "}
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
@@ -66,7 +66,7 @@ const ServicesSection = () => {
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
             {" "}
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
@@ -82,7 +82,7 @@ const ServicesSection = () => {
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
             {" "}
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
@@ -98,7 +98,7 @@ const ServicesSection = () => {
           {/* START SINGLE SERVICE BOX */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
             {" "}
-            <div className="flex justify-center text-4xl text-blue-500">
+            <div className="flex justify-center text-2xl md:text-4xl text-blue-500">
               <FaCode />
             </div>
             <div className="mt-4">
