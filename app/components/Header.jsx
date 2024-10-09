@@ -92,7 +92,7 @@ const Header = () => {
           infiniteLoop
           useKeyboardArrows
           autoPlay
-          interval={5000}
+          interval={3000}
           renderArrowPrev={(onClickHandler, hasPrev, label) =>
             hasPrev && (
               <button

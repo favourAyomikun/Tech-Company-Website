@@ -25,7 +25,7 @@ export default function Home() {
       {/* Rendering works component */}
       <WorkSection />
       {/* Rendering testimonials component */}
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection />
     </main>
   );
 }
