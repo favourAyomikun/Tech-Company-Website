@@ -69,7 +69,7 @@ export const Navbar = () => {
       </div>
       
       {/* Mobile Navigation Links */}
-      <div className={`lg:hidden ${isOpen ? "block" : "hidden"} bg-gray-800`}>
+      <div className={`lg:hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"}`}>
         <ul className="flex flex-col space-y-4 p-4">
           <li>
             <Link href="#home" className="hover:text-blue-400">
