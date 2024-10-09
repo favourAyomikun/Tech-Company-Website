@@ -15,16 +15,19 @@ const Footer = () => {
   return (
     <div className="bg-gray-800 pt-12">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-8">
+        {/* <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-8"> */}
+        <div className="flex justify-around gap-8">
           {/* START SINGLE WIDGET */}
           <div>
             <h4 className="text-white text-lg mb-4">
               About <span className="text-blue-600">IT COMPANY</span>
             </h4>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              since the 1500s.
+              industry.
+            </p>
+            <p className="text-gray-400">
+              Lorem Ipsum has been the industry's standard dummy text since the 1500s.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -84,7 +87,7 @@ const Footer = () => {
           {/* END SINGLE WIDGET */}
 
           {/* START SINGLE WIDGET */}
-          <div className="text-center md:text-left"> {/* Added text-center for mobile view */}
+          <div>
             <h4 className="text-white text-lg mb-4">Contact Info</h4>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
