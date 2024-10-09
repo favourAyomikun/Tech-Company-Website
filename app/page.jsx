@@ -6,6 +6,7 @@ import TeamSection from "./components/Team";
 import ProjectStatisticsSection from "./components/ProjectStatistics";
 import WorkSection from "./components/Works";
 import TestimonialsSection from "./components/Testimonials";
+import PricingSection from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
       <WorkSection />
       {/* Rendering testimonials component */}
       <TestimonialsSection />
+      {/* Rendering pricing component */}
+      <PricingSection />
     </main>
   );
 }
