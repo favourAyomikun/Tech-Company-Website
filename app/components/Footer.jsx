@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="bg-gray-800 pt-12">
       <div className="container mx-auto">
         {/* <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-8"> */}
-        <div className="flex justify-around gap-8">
+        <div className="flex flex-col md:flex-row flex-wrap justify-around gap-8">
           {/* START SINGLE WIDGET */}
           <div>
             <h4 className="text-white text-lg mb-4">
@@ -29,7 +29,7 @@ const Footer = () => {
             <p className="text-gray-400">
               Lorem Ipsum has been the industry's standard dummy text since the 1500s.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mt-4">
               <Link
                 href="#"
                 className="text-white text-2xl hover:text-blue-400"
