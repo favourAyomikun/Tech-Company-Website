@@ -40,37 +40,37 @@ const Header = () => {
           >
             <ul className="lg:flex lg:space-x-6 space-y-4 lg:space-y-0 text-base mt-4 lg:mt-0">
               <li>
-                <Link href="#home" className="hover:text-gray-400">
+                <Link href="#home" className=" hover:text-blue-400">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="hover:text-gray-400">
+                <Link href="#about" className=" hover:text-blue-400">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-gray-400">
+                <Link href="#services" className=" hover:text-blue-400">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#team" className="hover:text-gray-400">
+                <Link href="#team" className=" hover:text-blue-400">
                   Team
                 </Link>
               </li>
               <li>
-                <Link href="#work" className="hover:text-gray-400">
+                <Link href="#work" className=" hover:text-blue-400">
                   Work
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" className="hover:text-gray-400">
+                <Link href="#pricing" className=" hover:text-blue-400">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-gray-400">
+                <Link href="#contact" className=" hover:text-blue-400">
                   Contact
                 </Link>
               </li>
