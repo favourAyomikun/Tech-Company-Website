@@ -84,7 +84,7 @@ const Footer = () => {
           {/* END SINGLE WIDGET */}
 
           {/* START SINGLE WIDGET */}
-          <div>
+          <div className="text-center md:text-left"> {/* Added text-center for mobile view */}
             <h4 className="text-white text-lg mb-4">Contact Info</h4>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
