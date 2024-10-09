@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer-area bg-gray-800 py-12">
+    <div className="bg-gray-800 pt-12">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-8">
           {/* START SINGLE WIDGET */}
