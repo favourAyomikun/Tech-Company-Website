@@ -33,7 +33,7 @@ const Header = () => {
                 title={label}
                 className="absolute top-1/2 transform -translate-y-1/2 left-2 z-10 bg-gray-800 p-2 rounded-full text-white"
               >
-                <FaArrowLeft size={20} />
+                <FaArrowLeft  />
               </button>
             )
           }
@@ -45,7 +45,7 @@ const Header = () => {
                 title={label}
                 className="absolute top-1/2 transform -translate-y-1/2 right-2 z-10 bg-gray-800 p-2 rounded-full text-white"
               >
-                <FaArrowRight size={20} />
+                <FaArrowRight />
               </button>
             )
           }
@@ -58,10 +58,10 @@ const Header = () => {
             />
             <div className="absolute inset-0 flex justify-center items-center text-center text-white">
               <div>
-                <h2 className="text-4xl font-bold uppercase">
+                <h2 className="text-2xl md:text-4xl font-bold uppercase">
                   We are a Creative Agency
                 </h2>
-                <p className="mt-4 font-semibold">
+                <p className="text-sm md:text-base mt-4 font-semibold">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -93,7 +93,7 @@ const Header = () => {
                 <h2 className="text-4xl font-bold uppercase">
                   We are Creative Developers
                 </h2>
-                <p className="mt-4 font-semibold">
+                <p className="text-sm md:text-base mt-4 font-semibold">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -125,7 +125,7 @@ const Header = () => {
                 <h2 className="text-4xl font-bold uppercase">
                   We Do Design & Development
                 </h2>
-                <p className="mt-4 font-semibold">
+                <p className="text-sm md:text-base mt-4 font-semibold">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>

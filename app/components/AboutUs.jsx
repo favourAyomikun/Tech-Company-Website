@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div>
           {/* SECTION TITLE */}
           <div className="w-full text-center mb-12">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-2xl md:text-4xl font-bold">
               About Us
             </h2>
             <span className="block my-2 h-1 w-16 bg-gray-400 mx-auto"></span>
